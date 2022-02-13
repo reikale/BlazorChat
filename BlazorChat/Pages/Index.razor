@@ -14,13 +14,13 @@
     {
         @if (userMessage.CurrentUser)
         {
-            <div class="row mb-3 d-flex justify-content-end" style="color:whitesmoke">
-            <div class="card shadow mr-5 bg-secondary" style="width: 18rem;color:whitesmoke">
+            <div class="row mb-3 d-flex currentUserBox justify-content-end">
+            <div class="card shadow mr-5 currentUserBox bg-secondary" style="width:18rem;">
                
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-secondary" style="color:whitesmoke">
+                    <li class="list-group-item currentUserBox bg-secondary">
                         <strong>
-                            @userMessage.UserName: 
+                            You :
                         </strong>
                             @userMessage.Message</li>
                 </ul>
@@ -28,17 +28,17 @@
                     <span class="small">@userMessage.DateSent.ToShortTimeString()</span>
                 </div>
             </div>
-        </div>
+            </div>
         }
         else
         {
-            <div class="row mb-3 d-flex" >
-            <div class="card shadow" style="width:18rem;">
+            <div class="row mb-3 d-flex">
+            <div class="card shadow mr-5" style="width:18rem;">
                
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                         <strong>
-                            @userMessage.UserName: 
+                            @userMessage.UserName :
                         </strong>
                             @userMessage.Message</li>
                 </ul>
@@ -48,7 +48,9 @@
             </div>
         </div>
         }
-        
+
+
+
     }
 </div>
 

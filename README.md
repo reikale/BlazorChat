@@ -24,6 +24,8 @@
 ## Technologies Used
 - .NET - version 6.0
 - SignalR - version 6.0.2
+- Bootstrap - version 4.0.0
+- Microsoft ASP.NET Core Identity - version 6.0.1
 
 
 

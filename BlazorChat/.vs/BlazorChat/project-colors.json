@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4c6e3390-91f5-48d8-8bb2-17c9bd7ef967": {
+      "ProjectGuid": "4c6e3390-91f5-48d8-8bb2-17c9bd7ef967",
+      "DisplayName": "BlazorChat",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

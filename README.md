@@ -24,7 +24,7 @@
 ## Technologies Used
 - .NET - version 6.0.2
 
-- Dependencie injection
+- Dependency injection
 
 
 ## Features

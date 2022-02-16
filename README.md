@@ -1,5 +1,5 @@
 # BlazorChat
-> Real-time chat app using Blazor and SignalR
+> Blazor Webassembly application 
 
 <!-- ## Table of Contents
 * [General Info](#general-information)
@@ -23,9 +23,7 @@
 
 ## Technologies Used
 - .NET - version 6.0
-- SignalR - version 6.0.2
-- Bootstrap - version 4.0.0
-- Microsoft ASP.NET Core Identity - version 6.0.1
+
 
 
 

@@ -1,0 +1,12 @@
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\bin\Debug\net6.0\BlazorChat.Shared.deps.json
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\bin\Debug\net6.0\BlazorChat.Shared.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\bin\Debug\net6.0\BlazorChat.Shared.pdb
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.csproj.AssemblyReference.cache
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.AssemblyInfoInputs.cache
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.AssemblyInfo.cs
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\refint\BlazorChat.Shared.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\BlazorChat.Shared.pdb
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Shared\obj\Debug\net6.0\ref\BlazorChat.Shared.dll

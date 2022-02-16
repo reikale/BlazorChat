@@ -1,5 +1,5 @@
 # BlazorChat
-> Blazor Webassembly application 
+> Blazor Webassembly Progressive web application with ASP.CORE hosting.
 
 <!-- ## Table of Contents
 * [General Info](#general-information)
@@ -22,9 +22,9 @@
 
 
 ## Technologies Used
-- .NET - version 6.0
+- .NET - version 6.0.2
 
-
+- Dependencie injection
 
 
 ## Features

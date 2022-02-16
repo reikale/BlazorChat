@@ -1,0 +1,50 @@
+﻿@page "/contacts"
+@using BlazorChat.Shared
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<PageTitle>Contacts</PageTitle>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in ContactList)
+       {
+           <tr>
+               <th scope="row">
+                   <a href="/chat/@contact.Id" class="btn btn-secondary">Chat</a>
+               </th>
+               <th>@contact.FirstName</th>
+               <th>@contact.LastName</th>
+           </tr>
+       }
+    </tbody>
+</table>
+
+@code {
+    private WeatherForecast[]? forecasts;
+    private List<Contact> ContactList { get; set; } = new List<Contact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+
+        ContactList.Add(new BlazorChat.Shared.Contact ( 1, "Harry", "Potter" ));
+        ContactList.Add(new BlazorChat.Shared.Contact ( 2, "Hermione", "Granger" ));
+        ContactList.Add(new BlazorChat.Shared.Contact ( 3, "Ron", "Weasley" ));
+        ContactList.Add(new BlazorChat.Shared.Contact ( 4, "Severus", "Snape" ));
+        ContactList.Add(new BlazorChat.Shared.Contact ( 5, "Albus", "Dumbledore" ));
+        ContactList.Add(new BlazorChat.Shared.Contact ( 6, "Rubeus", "Hagrid" ));
+    }
+
+    private void NavigateToChat()
+    {
+        NavigationManager.NavigateTo("/chat");
+    }
+}

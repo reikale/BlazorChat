@@ -1,5 +1,5 @@
 ﻿global using Microsoft.EntityFrameworkCore;
-using BlazorChat.Server.Data;
+global using BlazorChat.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +13,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 // Swashbuckle.aspnetcore API kūrimui
-/*builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();*/
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -31,7 +31,7 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-/*app.UseSwagger();*/
+app.UseSwagger();
 app.UseHttpsRedirection();
 
 app.UseBlazorFrameworkFiles();

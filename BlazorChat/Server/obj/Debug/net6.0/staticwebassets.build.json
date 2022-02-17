@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8t99g8HEmPWqZfg0xYwAsIdrdgZ87BZvBJYV8BuJftM=",
+  "Hash": "hOQP79Hx7Hgn1eVTDG8oxU5dk90DXZZ6LzbxJrNt9es=",
   "Source": "BlazorChat.Server",
   "BasePath": "_content/BlazorChat.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "BlazorChat.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -189,6 +189,23 @@
       "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "BlazorChat.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "BlazorChat.Client",
       "SourceType": "Project",
@@ -238,23 +255,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "BlazorChat.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -6904,23 +6904,6 @@
       "OriginalItemSpec": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorChat.Client.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
-      "SourceId": "BlazorChat.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
-    },
-    {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.js",
       "SourceId": "BlazorChat.Client",
       "SourceType": "Project",
@@ -6936,6 +6919,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\service-worker.js"
+    },
+    {
+      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js.build",
+      "SourceId": "BlazorChat.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker-assets.js",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorServiceWorker",
+      "AssetTraitValue": "ServiceWorkerManifest",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "obj\\Debug\\net6.0\\service-worker-assets.js.build"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\css\\app.css",
@@ -6987,23 +6987,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorChat.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -7106,6 +7089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorChat.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

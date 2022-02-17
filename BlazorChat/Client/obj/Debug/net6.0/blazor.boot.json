@@ -197,14 +197,14 @@
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
       "BlazorChat.Shared.dll": "sha256-C6Qn1uf4gL71KZZYgXDp7DuZsFRbEZeohwjChC9klZ0=",
-      "BlazorChat.Client.dll": "sha256-4mxo0iavIzix6DiKK7cFCUHPNkxdEr6Nfv0syBijFzs="
+      "BlazorChat.Client.dll": "sha256-ez4K\/hwtnqloqsGzhIvGyKpH9P\/E0iMAjG7VGMZ7Bmw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "BlazorChat.Shared.pdb": "sha256-wRag+ZSaBmTZ+TiqtRr1wAjeNM0GVhGB6fSsb9xA2UU=",
-      "BlazorChat.Client.pdb": "sha256-qcTVGywfxQ32K2l+Fz3EOfQRUGk3Pp09ohs8fEc5nSA="
+      "BlazorChat.Client.pdb": "sha256-k45PljbbG8jZff1H+8\/6DIRg3UwhjE4pwKIujXBptLs="
     },
     "runtime": {
       "dotnet.6.0.2.ec2d53s1pp.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

@@ -857,19 +857,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-EjoFF7yRots8hIt0lT2S2+k2lldnQ1CVaHQonQGQsd0=",
+      "hash": "sha256-gsasM2I9de10\/2QoigfHNPMdBmxHFbD+sSwgso2OOkg=",
       "url": "_framework\/BlazorChat.Shared.dll"
     },
     {
-      "hash": "sha256-7M4cAeTQpngHiTNVLruDDnRe4vVSxQBou1ZGmbGdU18=",
+      "hash": "sha256-NCsTuZImXW704KKl860swHRUrBSWGykmiK5+E+eGraA=",
       "url": "_framework\/BlazorChat.Shared.pdb"
     },
     {
-      "hash": "sha256-UokO+shaRlW0qgHQrWcddOw1ipzz0ef0AS8GNWf2UxM=",
+      "hash": "sha256-LEeqdveyhgpbDAIk3EEYC1+\/KGRD4f1d40G5mEHnnO0=",
       "url": "_framework\/BlazorChat.Client.dll"
     },
     {
-      "hash": "sha256-EuhrRMnYmx2Sqb0iisKQpTuny9YwFf7gcmAGAACyM7Q=",
+      "hash": "sha256-nsfNrZBdEgtNsJ4YYq7wT2ESTqfGnC4Ud3cYeC6vyN4=",
       "url": "_framework\/BlazorChat.Client.pdb"
     },
     {
@@ -877,9 +877,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-IQGbc5Kknq2i8iLRGtSsXeUz4o04WKehyGE70gxp9+M=",
+      "hash": "sha256-566YlwFh8mKtiGyRdFtNn1irkwVRZBRJ5f4BoSrSnOQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "6gl0gSx0"
+  "version": "gVzRh6Y9"
 };

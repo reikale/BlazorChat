@@ -1,4 +1,4 @@
-global using Microsoft.EntityFrameworkCore;
+﻿global using Microsoft.EntityFrameworkCore;
 using BlazorChat.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
 
@@ -12,7 +12,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// Swashbuckle.aspnetcore API k?rimui
+// Swashbuckle.aspnetcore API kūrimui
 /*builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();*/
 

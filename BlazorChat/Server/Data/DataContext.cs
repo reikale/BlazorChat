@@ -9,7 +9,8 @@ namespace BlazorChat.Server.Data
         {
             this.Database.EnsureCreated();
         }
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<ChatHistory> ChatHistory { get; set; }
         
     }
 }

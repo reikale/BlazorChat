@@ -29,18 +29,18 @@
 
 @code {
     private WeatherForecast[]? forecasts;
-    private List<Contact> ContactList { get; set; } = new List<Contact>();
+    private List<User> ContactList { get; set; } = new List<User>();
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
 
-        ContactList.Add(new BlazorChat.Shared.Contact ( 1, "Harry", "Potter" ));
-        ContactList.Add(new BlazorChat.Shared.Contact ( 2, "Hermione", "Granger" ));
-        ContactList.Add(new BlazorChat.Shared.Contact ( 3, "Ron", "Weasley" ));
-        ContactList.Add(new BlazorChat.Shared.Contact ( 4, "Severus", "Snape" ));
-        ContactList.Add(new BlazorChat.Shared.Contact ( 5, "Albus", "Dumbledore" ));
-        ContactList.Add(new BlazorChat.Shared.Contact ( 6, "Rubeus", "Hagrid" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 1, "Harry", "Potter" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 2, "Hermione", "Granger" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 3, "Ron", "Weasley" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 4, "Severus", "Snape" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 5, "Albus", "Dumbledore" ));
+        ContactList.Add(new BlazorChat.Shared.User ( 6, "Rubeus", "Hagrid" ));
     }
 
     private void NavigateToChat()

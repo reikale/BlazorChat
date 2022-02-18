@@ -5,38 +5,11 @@
 
 <PageTitle>Contacts</PageTitle>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col"></th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var contact in ContactList)
-       {
-           <tr>
-               <th scope="row">
-                   <a href="/chat/@contact.Id" class="btn btn-secondary">Chat</a>
-               </th>
-               <th>@contact.FirstName</th>
-               <th>@contact.LastName</th>
-           </tr>
-       }
-    </tbody>
-</table>
 
+<h3>This table is from API:</h3><br />
+<UserList />
 @code {
-    private WeatherForecast[]? forecasts;
-    private List<User> ContactList { get; set; } = new List<User>();
-
-    protected override async Task OnInitializedAsync()
-    {
-         
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
-        
-    }
+    
 
     private void NavigateToChat()
     {

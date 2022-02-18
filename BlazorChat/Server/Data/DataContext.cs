@@ -1,4 +1,4 @@
-﻿using BlazorChat.Shared;
+﻿using BlazorChat.Shared.Models;
 
 namespace BlazorChat.Server.Data
 {

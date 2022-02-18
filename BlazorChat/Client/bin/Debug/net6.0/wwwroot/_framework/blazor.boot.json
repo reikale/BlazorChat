@@ -29,6 +29,22 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-tRzkW7Ekx3RsrBe894cfFYg4obJQxUjxuFkMwxh+EmA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-x6oiDUwhHmg2BfCJ43UGTPi2SSASRtEyFgka5LU8eRM=",
+      "Syncfusion.Blazor.Buttons.dll": "sha256-X0XRRPM8cCtP73ZQxQFaLhiAbpXx04buRNMTC70nV1E=",
+      "Syncfusion.Blazor.Calendars.dll": "sha256-ePT43eoue1unhOR2+jxWnwW5zUvn3AzS2j3vGB\/fREo=",
+      "Syncfusion.Blazor.Core.dll": "sha256-rEkOq8SedN\/gRLfMzWGmtFm0esytqgJh\/gZ7NjiJqtM=",
+      "Syncfusion.Blazor.Data.dll": "sha256-PMPJlzgTgewkSmziDV6RsDWIoyPvwEOTBGKBxGFq9xM=",
+      "Syncfusion.Blazor.DropDowns.dll": "sha256-YEIRXkh24kkpXCd9cZJUc04Y3X+eRozNAfNQ2snqKxY=",
+      "Syncfusion.Blazor.Grids.dll": "sha256-Ron\/nBfFVkEEwcAfOP3xnz66wjvSBqHXtkl2pbaLljQ=",
+      "Syncfusion.Blazor.Inputs.dll": "sha256-StCi2k7NwAWfdkpn1Ud0ZQkFqvpque9lSR6eHMzism4=",
+      "Syncfusion.Blazor.Lists.dll": "sha256-WUovN5H2uDRlapZsC1ghvhbkHq3vyHlwLtPBsGHEDHY=",
+      "Syncfusion.Blazor.Navigations.dll": "sha256-f4zmCqBdpS8kMOnzgB5JybfxzppLdTcSfmjvbxPc9BI=",
+      "Syncfusion.Blazor.Popups.dll": "sha256-3w4kIKZ1ambfHHUoYg1njCIr6V9nUftHnPA2GjPXFhw=",
+      "Syncfusion.Blazor.Spinner.dll": "sha256-s2Kf6UKpfeIAY1dno8TpEckzmNzcxFX+3bYbn09Ntvc=",
+      "Syncfusion.Blazor.SplitButtons.dll": "sha256-I2gVtwZ279N+ZeVB8GApFnc3gSJxwB69P9td7\/eI15o=",
+      "Syncfusion.Blazor.Themes.dll": "sha256-E6U44JwUdOX7GMEjnAACEU+\/xLeGsHVHBk5HNptTDyo=",
+      "Syncfusion.ExcelExport.Net.dll": "sha256-hfNo2U6gX0D5y11X4IHn21M\/eglfnYsgBWcS85k4lQs=",
+      "Syncfusion.Licensing.dll": "sha256-KcMllyFKXvjKzP0AuEaVSXJaRwfTY1SRsnRBdp2P\/lE=",
+      "Syncfusion.PdfExport.Net.dll": "sha256-6QGiQRKbZ5WvVX3w\/MCeY7gwQPwDKMirRY3QedH3AFs=",
       "System.IO.Pipelines.dll": "sha256-OXr1SqT\/FRQmnxVa6n811yUyJraU4tzQs5skNCiDmiM=",
       "Microsoft.CSharp.dll": "sha256-3e+4x4IkiKdqz1QQU3q+mMbt7E75QRKVErtzQS\/H59M=",
       "Microsoft.VisualBasic.Core.dll": "sha256-nQnzzad55mvxYjgGOVHwVLsICUf8+AfrBKNGzOP6kfc=",
@@ -196,15 +212,15 @@
       "mscorlib.dll": "sha256-c1dVVfosFaf5aiS3brr2amBi1Ue0kg6mqECzmCbGyfA=",
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
-      "BlazorChat.Shared.dll": "sha256-C6Qn1uf4gL71KZZYgXDp7DuZsFRbEZeohwjChC9klZ0=",
-      "BlazorChat.Client.dll": "sha256-ez4K\/hwtnqloqsGzhIvGyKpH9P\/E0iMAjG7VGMZ7Bmw="
+      "BlazorChat.Shared.dll": "sha256-jY0PhthOI7zEkhqeLCQESSEPAsSLt1tfdkYr8rJdH5k=",
+      "BlazorChat.Client.dll": "sha256-gTQBXHKU2VHh\/FzpM4AfU\/QJZVGFIDsnbEgN4AfmdVA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "BlazorChat.Shared.pdb": "sha256-wRag+ZSaBmTZ+TiqtRr1wAjeNM0GVhGB6fSsb9xA2UU=",
-      "BlazorChat.Client.pdb": "sha256-k45PljbbG8jZff1H+8\/6DIRg3UwhjE4pwKIujXBptLs="
+      "BlazorChat.Shared.pdb": "sha256-bS\/u5AbZMSYgTOIGEFEdeqaCHHriu3TVd4BfDAaMY1c=",
+      "BlazorChat.Client.pdb": "sha256-EB2AgBUkEV6XLjLWwqKypLyRradcw4WKEY0YX\/O3g78="
     },
     "runtime": {
       "dotnet.6.0.2.ec2d53s1pp.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",

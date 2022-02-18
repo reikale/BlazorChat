@@ -1,6 +1,7 @@
 ﻿global using Microsoft.EntityFrameworkCore;
 global using BlazorChat.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,8 +12,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
-// Swashbuckle.aspnetcore API kūrimui
+builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });// Swashbuckle.aspnetcore API kūrimui
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorChat.Shared
+namespace BlazorChat.Shared.Models
 {
     public class ChatHistory
     {

@@ -1,4 +1,5 @@
 ﻿using BlazorChat.Shared.Models;
+using System.Net.Http.Json;
 
 namespace BlazorChat.Client.ViewModels
 {
@@ -12,7 +13,37 @@ namespace BlazorChat.Client.ViewModels
         public string Email { get; set; }
         public string Password { get; set; }
         public string Source { get; set; }
+        public ProfileViewModel()
+        {
 
+        }
+        private HttpClient _httpClient;
+        public ProfileViewModel(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
+        public async Task UpdateProfile()
+        {
+            User user = this;
+
+            await _httpClient.PutAsJsonAsync("api/user/updateprofile/1", user);
+            this.Message = "Profile updated successfully";
+        }
+        public async Task GetProfile()
+        {
+            User user = await _httpClient.GetFromJsonAsync<User>("api/user/updateprofile/1");
+            // Modeli pakonvertuojam i viewmodel
+            LoadCurrentObject(user);
+            this.Message = "Profile loaded successfully";
+        }
+        private void LoadCurrentObject(ProfileViewModel profileViewModel)
+        {
+            this.FirstName = profileViewModel.FirstName;
+            this.LastName = profileViewModel.LastName;
+            this.Email = profileViewModel.Email;
+            this.Password = profileViewModel.Password;
+            this.Source = profileViewModel.Source;
+        }
         public static implicit operator ProfileViewModel (User user)
         {
             //keiciam model i viewmodel

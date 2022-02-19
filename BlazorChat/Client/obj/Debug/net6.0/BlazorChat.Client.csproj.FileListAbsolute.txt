@@ -889,3 +889,4 @@ C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\bui
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\Hm6vfXJT.gz
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\riPQJEOs.gz
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\ZnaghNgA.gz
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\scopedcss\Pages\Chat.razor.rz.scp.css

@@ -22,12 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Pages/Chat.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Pages/Contacts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Pages/Profile.razor]
@@ -49,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ispu33z5q6
 
 [C:/Users/Inga/Documents/GitHub/BlazorChat/BlazorChat/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

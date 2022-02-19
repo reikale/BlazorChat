@@ -1,0 +1,41 @@
+﻿body {
+    background-color: blueviolet;
+}
+.main {
+    position:absolute;
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-else {
+    border-radius:10px;
+    width: 18rem;
+    max-height: 65vh;
+    overflow-y: auto;
+    position:relative;
+    bottom:0;
+}
+.message-text {
+    display: flex;
+    flex-direction: column;
+}
+.message-text > em {
+    font-size: 10px;
+}
+.input-card {
+    width: 59vw;
+    position: relative;
+}
+.input-card-body {
+    display: flex;
+    justify-content: space-between;
+}
+textarea {
+    width: 50vw;
+    border-radius: 10px;
+}
+.send-button {
+    margin: 5px;
+}

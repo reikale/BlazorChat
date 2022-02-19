@@ -1,0 +1,27 @@
+﻿@page "/"
+@using BlazorChat.Client.ViewModels
+@inject NavigationManager _navigationManager
+@inject LoginViewModel _loginViewModel
+
+
+<h2><b>Login</b></h2>
+<hr />
+
+<div class="col-6">
+    <input type="text" @bind="_loginViewModel.Email" class="form-group" placeholder="Email Adress" />
+</div>
+<br />
+<div class="col-6">
+    <input type="text" @bind="_loginViewModel.Password" class="form-group" placeholder="Password" />
+</div>
+<div class="col-6">
+    <button class="btn btn-primary" @onclick="LoginUser">Login</button>
+</div>
+
+@code {
+    public async Task LoginUser()
+    {
+        await _loginViewModel.LoginUser();
+        _navigationManager.NavigateTo("/profile", true);
+    }
+}

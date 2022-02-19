@@ -1,3 +1,45 @@
+/* /Pages/Chat.razor.rz.scp.css */
+body[b-ispu33z5q6] {
+    background-color: blueviolet;
+}
+.main[b-ispu33z5q6] {
+    position:absolute;
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-else[b-ispu33z5q6] {
+    border-radius:10px;
+    width: 18rem;
+    max-height: 65vh;
+    overflow-y: auto;
+    position:relative;
+    bottom:0;
+}
+.message-text[b-ispu33z5q6] {
+    display: flex;
+    flex-direction: column;
+}
+.message-text > em[b-ispu33z5q6] {
+    font-size: 10px;
+}
+.input-card[b-ispu33z5q6] {
+    width: 59vw;
+    position: relative;
+}
+.input-card-body[b-ispu33z5q6] {
+    display: flex;
+    justify-content: space-between;
+}
+textarea[b-ispu33z5q6] {
+    width: 50vw;
+    border-radius: 10px;
+}
+.send-button[b-ispu33z5q6] {
+    margin: 5px;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-t34rz2xab6] {
     position: relative;

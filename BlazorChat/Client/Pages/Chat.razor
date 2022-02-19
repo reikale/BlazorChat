@@ -1,27 +1,26 @@
 ﻿@page "/chat"
 @page "/chat/{Id:int}"
 
-
 <PageTitle>Chat Page</PageTitle>
 
 
 
 
-<div class="main" style="position:absolute;width: 80vw;height: 85vh;display: flex;flex-direction: column;justify-content: space-between;">
+<div class="main" >
     
      @if(!@ListOfMessages.Any()){
          <br />
              <h5 class="card-subtitle mb-2 text-muted">Start chatting with @Id!</h5>
         }
         else{
-             <div class="card" style="border-radius:10px;width: 18rem;max-height: 65vh;overflow-y: auto;position:relative;bottom:0;">
+             <div class="card card-else" >
       
         <div class="card-body">
              @foreach (var message in ListOfMessages)
        {
-               <p class="card-text" style="display:flex;flex-direction:column;">
+               <p class="card-text message-text">
                    @message
-                   <em style="font-size:10px;">@DateTime.Now.ToShortTimeString()</em>
+                   <em>@DateTime.Now.ToShortTimeString()</em>
                </p>
                
        }
@@ -30,11 +29,11 @@
         }
 
       
-    <div class="card" style="width: 59vw;position: relative;">
-        <div @onkeydown="EnterPressed" class="card-body" style="display:flex; justify-content:space-between;">
+    <div class="card input-card">
+        <div class="card-body input-card-body">
             
-            <textarea  @bind="ChatInput" style="width:50vw;border-radius:10px;"/>
-            <button @onclick="SendMessage" class="btn btn-primary" style="margin:5px;">Send</button>
+            <textarea @bind="ChatInput"/>
+            <button @onclick="SendMessage" class="btn btn-primary send-button">Send</button>
         </div>
     
     </div>
@@ -57,12 +56,6 @@
             ChatInput = string.Empty;
         }
     }
-    private void EnterPressed(KeyboardEventArgs e)
-    {
-        if (e.Code == "Enter" || e.Code == "NumpadEnter")
-        {
-            SendMessage();
-        }
-    }
+    
 
 }

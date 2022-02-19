@@ -1,7 +1,7 @@
-﻿@page "/"
+﻿@page "/profile"
 @using BlazorChat.Client.ViewModels
 @using BlazorChat.Shared.Models
-@inject HttpClient HttpClient
+@inject ProfileViewModel _profileViewModel
 
 
 <PageTitle>Profile</PageTitle>
@@ -20,29 +20,11 @@ else
     <br />
     <input type="text" @bind-value="_profileViewModel.Email" class="form-control" placeholder="Email Adress"/>
     <br />
-    <button class="btn btn-primary" @onclick="UpdateProfile">Update Profile</button>
-    <button class="btn btn-primary" @onclick="GetProfile">Get Profile</button>
+    <button class="btn btn-primary" @onclick="_profileViewModel.UpdateProfile">Update Profile</button>
+    @*<button class="btn btn-primary" @onclick="_profileViewModel.GetProfile">Get Profile</button>*@
     <span>&nbsp;&nbsp;</span>@_profileViewModel.Message
 </div>
 }
-
-
 @code{
-    private ProfileViewModel _profileViewModel = new ProfileViewModel();
-
-
-    private async Task UpdateProfile()
-    {
-        User user = _profileViewModel;
-        
-        await HttpClient.PutAsJsonAsync("api/user/updateprofile/1", user);
-        _profileViewModel.Message = "Profile updated successfully";
-    }
-    private async Task GetProfile()
-    {
-        User user = await HttpClient.GetFromJsonAsync<User>("api/user/updateprofile/1");
-        // Modeli pakonvertuojam i viewmodel
-        _profileViewModel = user;
-        _profileViewModel.Message = "Profile loaded successfully";
-    }
+    protected override async Task OnInitializedAsync() => await _profileViewModel.GetProfile();
 }

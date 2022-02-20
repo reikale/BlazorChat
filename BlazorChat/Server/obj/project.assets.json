@@ -44,6 +44,19 @@
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Authorization/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components": "6.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/6.0.2": {
         "type": "package",
         "dependencies": {
@@ -1293,6 +1306,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BlazorChat.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.2"
         },
         "compile": {
@@ -1306,6 +1320,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
           "Syncfusion.Blazor.Grid": "19.4.0.52"
         },
         "compile": {
@@ -1382,6 +1397,21 @@
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "microsoft.aspnetcore.components.analyzers.6.0.2.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/6.0.2": {
+      "sha512": "kIMFGo1pqfUyFLN5sekbk73R0C+0cKI+nJ1AnBwWiPmAhiLEmz6HSjSehXJ7ST7hAxPhE9oGoPoTC6hF1Lvilw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/6.0.2": {
@@ -3658,6 +3688,7 @@
     "net6.0": [
       "BlazorChat.Client >= 1.0.0",
       "BlazorChat.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 6.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.2",
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.2",
@@ -3713,6 +3744,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[6.0.2, )"

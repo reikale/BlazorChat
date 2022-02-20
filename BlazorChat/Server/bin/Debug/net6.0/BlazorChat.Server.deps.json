@@ -10,6 +10,7 @@
         "dependencies": {
           "BlazorChat.Client": "1.0.0",
           "BlazorChat.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.2",
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.Design": "6.0.2",
@@ -56,6 +57,18 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/6.0.2": {},
+      "Microsoft.AspNetCore.Components.Authorization/6.0.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6412"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/6.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.2"
@@ -864,6 +877,7 @@
       "BlazorChat.Client/1.0.0": {
         "dependencies": {
           "BlazorChat.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.2"
         },
         "runtime": {
@@ -872,6 +886,7 @@
       },
       "BlazorChat.Shared/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
           "Syncfusion.Blazor.Grid": "19.4.0.52"
         },
         "runtime": {
@@ -913,6 +928,13 @@
       "sha512": "sha512-jHMdjIrlqm1T6BqBzCpuMAdj1mSpmcEF0wNXIKh7xS6jKAdKOy8aWKTbFI022dW8ZgjC4UNpp9UTuMDVu9/T/w==",
       "path": "microsoft.aspnetcore.components.analyzers/6.0.2",
       "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Authorization/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kIMFGo1pqfUyFLN5sekbk73R0C+0cKI+nJ1AnBwWiPmAhiLEmz6HSjSehXJ7ST7hAxPhE9oGoPoTC6hF1Lvilw==",
+      "path": "microsoft.aspnetcore.components.authorization/6.0.2",
+      "hashPath": "microsoft.aspnetcore.components.authorization.6.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/6.0.2": {
       "type": "package",

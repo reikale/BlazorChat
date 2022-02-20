@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nacCLW1SMsBZseOHt1vNA3QZJTscZ1EKyDUFl1Pngz0=",
+  "Hash": "eEK0mAtbqpJJwUlXdciWU7xaJvuwhKps9e37Xq9BwGc=",
   "Source": "BlazorChat.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.2\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -7257,6 +7274,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\build-gz\\pymEQV2B.gz",
+      "SourceId": "BlazorChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\obj\\Debug\\net6.0\\build-gz\\qdpzqaIq.gz",

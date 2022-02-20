@@ -7,15 +7,15 @@
 <h2><b>Login</b></h2>
 <hr />
 
-<div class="col-6">
-    <input type="text" @bind="_loginViewModel.Email" class="form-group" placeholder="Email Adress" />
+<div class="col-6 form-group">
+    <input type="text" @bind="_loginViewModel.Email" class="form-control" placeholder="Email Adress" />
 </div>
 <br />
-<div class="col-6">
-    <input type="text" @bind="_loginViewModel.Password" class="form-group" placeholder="Password" />
+<div class="col-6 form-group">
+    <input type="password" @bind="_loginViewModel.Password" class="form-control" placeholder="Password" />
 </div>
-<div class="col-6">
-    <button class="btn btn-primary" @onclick="LoginUser">Login</button>
+<div class="col-6 form-group">
+    <button class="btn btn-primary" @onclick="LoginUser" style="margin-top:20px;">Login</button>
 </div>
 
 @code {

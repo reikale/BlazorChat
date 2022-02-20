@@ -1,7 +1,7 @@
 ﻿global using Microsoft.EntityFrameworkCore;
 global using BlazorChat.Server.Data;
-using Microsoft.AspNetCore.ResponseCompression;
 using Syncfusion.Blazor;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +15,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });// Swashbuckle.aspnetcore API kūrimui
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
+
 
 var app = builder.Build();
 
@@ -38,7 +41,11 @@ app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
 
+
+app.MapDefaultControllerRoute();
 
 app.MapRazorPages();
 app.MapControllers();

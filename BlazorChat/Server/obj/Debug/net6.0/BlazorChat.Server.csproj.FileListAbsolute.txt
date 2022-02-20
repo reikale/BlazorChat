@@ -99,3 +99,4 @@ C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Server\bin\Debug\net6.0\Syn
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Server\bin\Debug\net6.0\Syncfusion.ExcelExport.Net.dll
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Server\bin\Debug\net6.0\Syncfusion.Licensing.dll
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Server\bin\Debug\net6.0\Syncfusion.PdfExport.Net.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll

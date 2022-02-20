@@ -890,3 +890,7 @@ C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\bui
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\riPQJEOs.gz
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\ZnaghNgA.gz
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\scopedcss\Pages\Chat.razor.rz.scp.css
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\pymEQV2B.gz

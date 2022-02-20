@@ -1,4 +1,6 @@
 ﻿using BlazorChat.Shared.Models;
+using System.Net.Http.Json;
+
 namespace BlazorChat.Client.ViewModels
 {
     public class LoginViewModel
@@ -16,7 +18,7 @@ namespace BlazorChat.Client.ViewModels
         }
         public async Task LoginUser()
         {
-            await Task.Delay(1000);
+            await _httpClient.PostAsJsonAsync<User>("api/user/login", this);
         }
 
         public static implicit operator LoginViewModel(User user)

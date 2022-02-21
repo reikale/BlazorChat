@@ -11,6 +11,7 @@
           "BlazorChat.Client": "1.0.0",
           "BlazorChat.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "6.0.2",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "6.0.2",
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.Design": "6.0.2",
@@ -105,6 +106,18 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.222.6412"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components.Web": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": {
             "assemblyVersion": "6.0.2.0",
             "fileVersion": "6.0.222.6412"
           }
@@ -878,7 +891,8 @@
         "dependencies": {
           "BlazorChat.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.2"
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.2",
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "6.0.2"
         },
         "runtime": {
           "BlazorChat.Client.dll": {}
@@ -887,6 +901,7 @@
       "BlazorChat.Shared/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "6.0.2",
           "Syncfusion.Blazor.Grid": "19.4.0.52"
         },
         "runtime": {
@@ -956,6 +971,13 @@
       "sha512": "sha512-FM+ygVElZ6Eug5CNxYfmTSjXt/iU4EryMkNDtdCZwM9z6lPRUf2S3vfVJ79Io4Fzy05d+dnaw+6Zo3fz3s8s2w==",
       "path": "microsoft.aspnetcore.components.webassembly/6.0.2",
       "hashPath": "microsoft.aspnetcore.components.webassembly.6.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Authentication/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z/dPxwLC8gmCQQohPJ4EdRHIP6FG9DFofplSDHWVNWgJsVEp4nC/jITVGC1qCs/l+fEQ1pJi2NjPvdiRBftqRQ==",
+      "path": "microsoft.aspnetcore.components.webassembly.authentication/6.0.2",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.authentication.6.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.WebAssembly.Server/6.0.2": {
       "type": "package",

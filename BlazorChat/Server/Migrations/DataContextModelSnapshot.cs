@@ -22,7 +22,7 @@ namespace BlazorChat.Server.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("BlazorChat.Shared.ChatHistory", b =>
+            modelBuilder.Entity("BlazorChat.Shared.Models.ChatHistory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -48,7 +48,7 @@ namespace BlazorChat.Server.Migrations
                     b.ToTable("ChatHistory");
                 });
 
-            modelBuilder.Entity("BlazorChat.Shared.User", b =>
+            modelBuilder.Entity("BlazorChat.Shared.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -86,7 +86,6 @@ namespace BlazorChat.Server.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Source")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

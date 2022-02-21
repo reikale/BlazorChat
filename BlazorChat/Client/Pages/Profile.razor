@@ -5,26 +5,30 @@
 
 
 <PageTitle>Profile</PageTitle>
+
 @if(_profileViewModel == null)
-{
-    <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
-        <span class="visually-hidden">Loading...</span>
-    </div>
-}
-else
-{
-    <div class="col-12">
-    <input type="text" @bind-value="_profileViewModel.FirstName" class="form-control" placeholder="First Name"/>
-    <br />
-    <input type="text" @bind-value="_profileViewModel.LastName" class="form-control" placeholder="Last Name"/>
-    <br />
-    <input type="text" @bind-value="_profileViewModel.Email" class="form-control" placeholder="Email Adress"/>
-    <br />
-    <button class="btn btn-primary" @onclick="_profileViewModel.UpdateProfile">Update Profile</button>
-    @*<button class="btn btn-primary" @onclick="_profileViewModel.GetProfile">Get Profile</button>*@
-    <span>&nbsp;&nbsp;</span>@_profileViewModel.Message
-</div>
-}
+    {
+        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        }
+        else
+        {
+        <div class="col-12">
+        <input type="text" @bind-value="_profileViewModel.FirstName" class="form-control" placeholder="First Name"/>
+        <br />
+        <input type="text" @bind-value="_profileViewModel.LastName" class="form-control" placeholder="Last Name"/>
+        <br />
+        <input type="text" @bind-value="_profileViewModel.Email" class="form-control" placeholder="Email Adress"/>
+        <br />
+        <button class="btn btn-primary" @onclick="_profileViewModel.UpdateProfile">Update Profile</button>
+        @*<button class="btn btn-primary" @onclick="_profileViewModel.GetProfile">Get Profile</button>*@
+        <span>&nbsp;&nbsp;</span>@_profileViewModel.Message
+        </div>
+    }
+   
+      
+
 @code{
     protected override async Task OnInitializedAsync() => await _profileViewModel.GetProfile();
 }

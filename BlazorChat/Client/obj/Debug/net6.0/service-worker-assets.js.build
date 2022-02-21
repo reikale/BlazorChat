@@ -97,6 +97,10 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
+      "hash": "sha256-J+GEhSs7RElL8esN4UTBk0kX5HD\/prjzQ6+i\/t0R9gQ=",
+      "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "hash": "sha256-gnc+PVbmWP6vWXYgIbnhIyEll2ok6iKRa9wueeJF5lU=",
       "url": "_framework\/Microsoft.AspNetCore.Metadata.dll"
     },
@@ -925,19 +929,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-XHHdEexoMSbUkonia7ymAcq7+yYQqkSQgsiyxrebJuA=",
+      "hash": "sha256-ODofvJICvYm8XQ7mkEKvR82LAFuHMoyTY8rJCqzTMtk=",
       "url": "_framework\/BlazorChat.Shared.dll"
     },
     {
-      "hash": "sha256-auoFtB7wmBbQNG\/HKbaa7epWsJQdFIyvpP8Czf\/bZt8=",
+      "hash": "sha256-dCP9OQUPo064wJGyWYifHB93hGE60soYuvGIPjAjYXw=",
       "url": "_framework\/BlazorChat.Shared.pdb"
     },
     {
-      "hash": "sha256-gSBLwZtOtbhsbRXlWB+9UPC4e9IxhPH+HOfE5KGNbd0=",
+      "hash": "sha256-J3rji5J7NZgz+wB9DNZnSfBi0NRsyIojzYuMcxoex\/Y=",
       "url": "_framework\/BlazorChat.Client.dll"
     },
     {
-      "hash": "sha256-h0IkTbaXo3HgAczBt49pbwyCtQ\/B97WcyyjGH6DrPEc=",
+      "hash": "sha256-QKAI\/udryjiPePjCuyxpOorLnPLyF9siUqzaQG6ElzQ=",
       "url": "_framework\/BlazorChat.Client.pdb"
     },
     {
@@ -945,7 +949,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-+6aiZ5LNcv08mKAiS9o3XWQPTPH16nEWG9kc6EuTsHo=",
+      "hash": "sha256-+97vUdZujtbBhA2LiUGPg5WJJxMla8\/laQ\/fZmhVMog=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1179,7 +1183,11 @@
     {
       "hash": "sha256-ei4liTyq3iT44D6uEE9lyELuz\/\/zBXZix4MNlLd3raI=",
       "url": "_content\/Syncfusion.Blazor.Grid\/scripts\/sf-grid-fbab4b.min.js"
+    },
+    {
+      "hash": "sha256-Wn02IHGVHYWQvpPDhVA\/vA\/ICx8Xfh4I6vjapn2Wbxk=",
+      "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "RXKDANNB"
+  "version": "DzJJmTRa"
 };

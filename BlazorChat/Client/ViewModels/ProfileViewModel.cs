@@ -44,7 +44,7 @@ namespace BlazorChat.Client.ViewModels
             this.Password = profileViewModel.Password;
             this.Source = profileViewModel.Source;
         }
-        public static implicit operator ProfileViewModel (User user)
+        public static implicit operator ProfileViewModel(User user)
         {
             //keiciam model i viewmodel
             return new ProfileViewModel

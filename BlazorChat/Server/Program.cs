@@ -1,7 +1,7 @@
-﻿global using Microsoft.EntityFrameworkCore;
-global using BlazorChat.Server.Data;
-using Syncfusion.Blazor;
+﻿global using BlazorChat.Server.Data;
+global using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +15,16 @@ builder.Services.AddRazorPages();
 builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });// Swashbuckle.aspnetcore API kūrimui
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie();
+builder.Services.AddAuthentication(op =>
+{
+    op.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+    .AddCookie(/*options =>
+    {
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+        options.SlidingExpiration = true;
+        options.AccessDeniedPath = "/Forbidden/";
+    }*/);
 
 
 var app = builder.Build();
@@ -39,7 +47,11 @@ app.UseHttpsRedirection();
 
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
-
+var cookiePolicyOptions = new CookiePolicyOptions
+{
+    MinimumSameSitePolicy = SameSiteMode.Strict,
+};
+app.UseCookiePolicy(cookiePolicyOptions);
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

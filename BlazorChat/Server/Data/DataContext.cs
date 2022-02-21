@@ -11,6 +11,6 @@ namespace BlazorChat.Server.Data
         }
         public DbSet<User> Users { get; set; }
         public DbSet<ChatHistory> ChatHistory { get; set; }
-        
+
     }
 }

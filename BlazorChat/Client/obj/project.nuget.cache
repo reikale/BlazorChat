@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MBA7VBo8PH/JhLWJXN2uA3L6kP+rsK0LXk36XMLv73EUfKepETELUd9kJ7UxMfl6N1Ic4aN+PcyPMwhCpdsN2w==",
+  "dgSpecHash": "xOzCNQhh+AFZsc+Vj6xly1iQBWtaeNQcQ0omll5xVUOf4DhfBB9AliFqEXep9yu+tCDW7Th0P+5xbJUEWSXeGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Inga\\Documents\\GitHub\\BlazorChat\\BlazorChat\\Client\\BlazorChat.Client.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.2\\microsoft.aspnetcore.components.forms.6.0.2.nupkg.sha512",
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.2\\microsoft.aspnetcore.components.web.6.0.2.nupkg.sha512",
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.2\\microsoft.aspnetcore.components.webassembly.6.0.2.nupkg.sha512",
+    "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.2\\microsoft.aspnetcore.components.webassembly.authentication.6.0.2.nupkg.sha512",
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\6.0.2\\microsoft.aspnetcore.components.webassembly.devserver.6.0.2.nupkg.sha512",
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.2\\microsoft.aspnetcore.metadata.6.0.2.nupkg.sha512",
     "C:\\Users\\Inga\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Syncfusion.Blazor.Grid": {
               "target": "Package",
               "version": "[19.4.0.52, )"

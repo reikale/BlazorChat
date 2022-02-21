@@ -7,6 +7,8 @@ namespace BlazorChat.Client.ViewModels
     {
         public string Email { get; set; }
         public string Password { get; set; }
+        public string Source { get; set; } = "APPL";
+
         public LoginViewModel()
         {
 
@@ -29,7 +31,7 @@ namespace BlazorChat.Client.ViewModels
                 Password = user.Password
             };
         }
-        public static implicit operator User (LoginViewModel loginViewModel)
+        public static implicit operator User(LoginViewModel loginViewModel)
         {
             return new User
             {

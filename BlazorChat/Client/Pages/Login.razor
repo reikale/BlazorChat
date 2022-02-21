@@ -4,6 +4,7 @@
 @inject LoginViewModel _loginViewModel
 
 
+
 <h2><b>Login</b></h2>
 <hr />
 
@@ -21,6 +22,7 @@
 @code {
     public async Task LoginUser()
     {
+        
         await _loginViewModel.LoginUser();
         _navigationManager.NavigateTo("/profile", true);
     }

@@ -894,3 +894,7 @@ C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\www
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\pymEQV2B.gz
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\Inga\Documents\GitHub\BlazorChat\BlazorChat\Client\obj\Debug\net6.0\build-gz\z0e2PtJd.gz

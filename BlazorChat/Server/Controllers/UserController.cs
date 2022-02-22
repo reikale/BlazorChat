@@ -63,13 +63,18 @@ namespace BlazorChat.Server.Controllers
         public async Task<ActionResult<User>> GetCurrentUser()
         {
             User currentUser = new User();
+
+            if (User != null && User.Identity.IsAuthenticated)
+            {
+                currentUser.Email = User.FindFirstValue(ClaimTypes.Name);
+            }
             return await Task.FromResult(currentUser);
         }
 
         [HttpGet("logoutuser")]
         public async Task<ActionResult<String>> LogOutUser()
         {
-            await Task.Delay(1000);
+            await HttpContext.SignOutAsync();
             return "Success";
         }
     }

@@ -23,13 +23,14 @@
 
 ## Technologies Used
 - .NET - version 6.0.2
-
+- Microsoft SQLServer - version 6.0.2
+- SignalR
 - Dependency injection
 
 
 ## Features
 <!-- List the ready features here:
-- Awesome feature 1
+- Claim-based Authorization
 - Awesome feature 2
 - Awesome feature 3 -->
 

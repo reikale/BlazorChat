@@ -18,9 +18,10 @@ namespace BlazorChat.Client
             if (currentUser != null && currentUser.Email != null)
             {
                 // create a claim
-                var claims = new Claim(ClaimTypes.Name, currentUser.Email);
+                var claimEmail = new Claim(ClaimTypes.Name, currentUser.Email);
+                var claimsIdentifier = new Claim(ClaimTypes.NameIdentifier, Convert.ToString(currentUser.Id));
                 // create claimsIdentity
-                var claimsIdentity = new ClaimsIdentity(new[] { claims }, "serverAuth");
+                var claimsIdentity = new ClaimsIdentity(new[] { claimEmail, claimsIdentifier }, "serverAuth");
                 // create claimsPrincipal
                 var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 

@@ -26,15 +26,24 @@ namespace BlazorChat.Client.ViewModels
         {
             User user = this;
 
-            await _httpClient.PutAsJsonAsync("api/user/updateprofile/1", user);
+            await _httpClient.PutAsJsonAsync("api/user/updateprofile/" + this.Id, user);
             this.Message = "Profile updated successfully";
         }
         public async Task GetProfile()
         {
-            User user = await _httpClient.GetFromJsonAsync<User>("api/user/updateprofile/1");
-            // Modeli pakonvertuojam i viewmodel
-            LoadCurrentObject(user);
-            this.Message = "Profile loaded successfully";
+            if (this.Id != 0 && this.Email != null)
+            {
+                throw new FileNotFoundException();
+            }
+            else
+            {
+                User user = await _httpClient.GetFromJsonAsync<User>("api/user/updateprofile/" + this.Id);
+                // Modeli pakonvertuojam i viewmodel
+                LoadCurrentObject(user);
+                this.Message = "Profile loaded successfully";
+            }
+            
+            
         }
         private void LoadCurrentObject(ProfileViewModel profileViewModel)
         {

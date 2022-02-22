@@ -66,7 +66,8 @@ namespace BlazorChat.Server.Controllers
 
             if (User != null && User.Identity.IsAuthenticated)
             {
-                currentUser.Email = User.FindFirstValue(ClaimTypes.Name);
+                var email = User.FindFirstValue(ClaimTypes.Name);
+                currentUser = await _context.Users.Where(x => x.Email == email).FirstOrDefaultAsync();
             }
             return await Task.FromResult(currentUser);
         }

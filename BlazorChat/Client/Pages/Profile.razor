@@ -1,7 +1,10 @@
 ﻿@page "/profile"
 @using BlazorChat.Client.ViewModels
 @using BlazorChat.Shared.Models
+@using System.Security.Claims
 @inject ProfileViewModel _profileViewModel
+@inject NavigationManager _navigationManager
+@*@inject AuthenticationStateProvider _authenticationStateProvider*@
 
 
 <PageTitle>Profile</PageTitle>
@@ -30,5 +33,24 @@
       
 
 @code{
-    protected override async Task OnInitializedAsync() => await _profileViewModel.GetProfile();
+    [CascadingParameter]
+    public Task<AuthenticationState> authenticationState { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await authenticationState; // _authenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        if(user.Identity.IsAuthenticated)
+        {
+            var claim = user.FindFirst(x => x.Type == ClaimTypes.NameIdentifier);
+            _profileViewModel.Id = Convert.ToInt32(claim?.Value);
+            await _profileViewModel.GetProfile();
+        }
+        else
+        {
+            _navigationManager.NavigateTo("/");
+        }
+        
+    }
+    
 }

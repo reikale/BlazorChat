@@ -937,11 +937,11 @@
       "url": "_framework\/BlazorChat.Shared.pdb"
     },
     {
-      "hash": "sha256-J3rji5J7NZgz+wB9DNZnSfBi0NRsyIojzYuMcxoex\/Y=",
+      "hash": "sha256-V3d9PXz0W8qxB5Azey57L7zUx6PgLEhxLsMHIltqzIo=",
       "url": "_framework\/BlazorChat.Client.dll"
     },
     {
-      "hash": "sha256-QKAI\/udryjiPePjCuyxpOorLnPLyF9siUqzaQG6ElzQ=",
+      "hash": "sha256-IEMzwgKz+n3zbKLs8+Ljjq73bVPsxrF6ryr1S\/HHPnQ=",
       "url": "_framework\/BlazorChat.Client.pdb"
     },
     {
@@ -949,7 +949,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-+97vUdZujtbBhA2LiUGPg5WJJxMla8\/laQ\/fZmhVMog=",
+      "hash": "sha256-e0LKCG6ZVyVsz6AibyC3zXuIjPERdo\/8eEZGKrIY+L8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1189,5 +1189,5 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     }
   ],
-  "version": "DzJJmTRa"
+  "version": "70mHJNcF"
 };

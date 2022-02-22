@@ -30,6 +30,7 @@ namespace BlazorChat.Server.Controllers
             userToUpdate.FirstName = user.FirstName;
             userToUpdate.LastName = user.LastName;
             userToUpdate.Email = user.Email;
+            userToUpdate.Password = Utility.Encrypt(user.Password);
             await _context.SaveChangesAsync();
             return await Task.FromResult(user);
         }
@@ -44,6 +45,8 @@ namespace BlazorChat.Server.Controllers
         [HttpPost("login")]
         public async Task<ActionResult<User>> LoginUser(User user)
         {
+            user.Password = Utility.Encrypt(user.Password);
+
             User loggedInUser = await _context.Users.Where(u => u.Email == user.Email && u.Password == user.Password).FirstOrDefaultAsync();
             if (loggedInUser != null)
             {

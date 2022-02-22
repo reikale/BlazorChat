@@ -25,7 +25,6 @@ namespace BlazorChat.Client.ViewModels
         public async Task UpdateProfile()
         {
             User user = this;
-
             await _httpClient.PutAsJsonAsync("api/user/updateprofile/" + this.Id, user);
             this.Message = "Profile updated successfully";
         }
